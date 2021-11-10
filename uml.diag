@@ -1,0 +1,31 @@
+                 ┌───────────────────────────────────────────┐
+                 │                                           ▼
+               ┌─┴─┐      ┌────────┐     ┌───────────┐   ┌──────┐
+               │CAR│      │Customer│     │Reservation│ ◄─┤Garage│
+               └─┬─┘      └────-───┘     └───────────┘   └──────┘
+                 │                              ▲
+                 │                              │
+                 └──────────────────────────────┘
+
+
+       ┌─────────────┐     ┌────────────────┐
+       │Car          │     │Customer        │       Reservation
+       ├─────────────┤     ├────────────────┤
+       │Reg:   string│     │Name: string    │       ID: UUID
+       │Make:  string│     │ID: UUID        │       Car: UUID
+       │Model: string│     │Balance: float32│       Customer: UUID
+       │ID:    UUID  │     ├────────────────┤
+       |Hired: bool  |     │AddCredit()     │
+       │Rate:  int   │     │AddDebt()       │
+       ├─────────────┤     └────────────────┘
+       │CheckHired() │     
+       │Hire()       │     
+       └─────────────┘     
+
+
+
+
+
+
+
+
